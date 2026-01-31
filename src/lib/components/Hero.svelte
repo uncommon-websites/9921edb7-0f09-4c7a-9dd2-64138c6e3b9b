@@ -1,5 +1,5 @@
 <script lang="ts">
-    const bgImage = "https://images.unsplash.com/photo-1504917595217-d4dc5ebe6122?q=80&w=2940&auto=format&fit=crop";
+    const bgImage = "https://images.unsplash.com/photo-1565008576549-57569a49371d?q=80&w=2940&auto=format&fit=crop";
 </script>
 
 <section class="relative h-screen w-full overflow-hidden bg-gray-900 text-white">
@@ -20,7 +20,7 @@
                 15-30%
             </h1>
             <p class="text-lg md:text-xl text-gray-300 max-w-2xl mb-12 leading-relaxed">
-                We prevent claims before they happen through proactive risk assessments, loss control programs, and safety culture training for mid-market manufacturers, construction firms, and logistics companies.
+                Every claim costs you twice—once in losses, again in higher premiums. We help mid-market companies break that cycle through proactive risk assessments, loss control programs, and safety culture training.
             </p>
             <div class="flex flex-col sm:flex-row gap-4">
                 <a href="/contact" class="inline-block bg-primary-600 text-white px-8 py-4 text-sm font-semibold hover:bg-primary-700 transition-colors">

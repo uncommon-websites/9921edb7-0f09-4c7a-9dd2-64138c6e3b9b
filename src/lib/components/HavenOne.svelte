@@ -1,58 +1,107 @@
-<section class="relative bg-[#FFFCF9] py-32 px-6 md:px-12 overflow-hidden min-h-screen flex flex-col justify-between">
-    <div class="max-w-[1400px] mx-auto w-full h-full relative z-10 flex flex-col justify-between min-h-[80vh]">
-        <!-- Top Info -->
-        <div class="flex justify-between items-start w-full relative z-20">
-            <div class="flex flex-col">
-                <span class="text-[10px] font-mono font-bold tracking-widest text-gray-900 uppercase">The Stoic Risk Framework</span>
-                <span class="text-[10px] font-mono font-bold tracking-widest text-primary-600 mt-2 uppercase">Prevention First</span>
+<script lang="ts">
+    const stats = [
+        { label: "Average cost reduction", value: "15-30%" },
+        { label: "Typical ROI timeline", value: "18 months" },
+        { label: "Claims prevented annually", value: "40-60%" },
+        { label: "Client retention rate", value: "94%" }
+    ];
+
+    const industries = [
+        "Manufacturing",
+        "Construction", 
+        "Logistics",
+        "Distribution"
+    ];
+</script>
+
+<section class="bg-white py-24 px-6 md:px-12">
+    <div class="max-w-[1400px] mx-auto">
+        <div class="grid md:grid-cols-2 gap-16 md:gap-24 items-center">
+            <!-- Left Column -->
+            <div>
+                <span class="text-[10px] font-mono font-bold tracking-widest text-primary-600 uppercase mb-6 block">Why Seneca Risk</span>
+                
+                <h2 class="text-4xl md:text-5xl font-semibold leading-[1.05] tracking-tight mb-8 text-black">
+                    Your broker sells policies. We prevent losses.
+                </h2>
+                
+                <p class="text-lg text-gray-600 leading-relaxed mb-8">
+                    Most mid-market companies are trapped in a reactive cycle—paying for past claims through higher premiums while doing little to prevent future ones. We break that cycle with hands-on risk management that reduces both incidents and insurance costs.
+                </p>
+
+                <div class="space-y-6 mb-12">
+                    <div class="flex items-start gap-4">
+                        <div class="w-6 h-6 bg-primary-600 flex items-center justify-center shrink-0 mt-1">
+                            <div class="w-2 h-2 bg-white"></div>
+                        </div>
+                        <div>
+                            <h3 class="font-semibold text-gray-900 mb-2">Specialized expertise</h3>
+                            <p class="text-gray-600">Deep operational knowledge in manufacturing, construction, and logistics—not generic consulting.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="flex items-start gap-4">
+                        <div class="w-6 h-6 bg-primary-600 flex items-center justify-center shrink-0 mt-1">
+                            <div class="w-2 h-2 bg-white"></div>
+                        </div>
+                        <div>
+                            <h3 class="font-semibold text-gray-900 mb-2">Proven methodology</h3>
+                            <p class="text-gray-600">The Stoic Risk Framework combines assessment, implementation, and optimization for sustainable results.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="flex items-start gap-4">
+                        <div class="w-6 h-6 bg-primary-600 flex items-center justify-center shrink-0 mt-1">
+                            <div class="w-2 h-2 bg-white"></div>
+                        </div>
+                        <div>
+                            <h3 class="font-semibold text-gray-900 mb-2">Aligned incentives</h3>
+                            <p class="text-gray-600">We succeed when you reduce total cost of risk—not when you buy more insurance.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <a href="/about" class="inline-flex items-center gap-2 text-sm font-semibold text-gray-900 hover:text-primary-600 transition-colors group/link">
+                    <span>Learn about our approach</span>
+                    <span class="text-xs group-hover/link:translate-x-1 transition-transform duration-300">›</span>
+                </a>
             </div>
 
-            <div class="text-right hidden md:block">
-                <div class="grid grid-cols-[auto_auto] gap-x-8 gap-y-2 text-[10px] font-mono text-gray-500 uppercase tracking-widest">
-                    <span class="text-gray-400">Avg. cost reduction</span> <span class="text-gray-900 font-bold">15-30%</span>
-                    <span class="text-gray-400">Implementation time</span> <span class="text-gray-900 font-bold">18 months</span>
-                    <span class="text-gray-400">Target company size</span> <span class="text-gray-900 font-bold">$50M-$500M</span>
-                    <span class="text-gray-400">Core industries served</span> <span class="text-gray-900 font-bold">Manufacturing, Construction, Logistics</span>
-                    <span class="text-gray-400">Engagement model</span> <span class="text-gray-900 font-bold">Monthly retainer $5K-$25K</span>
+            <!-- Right Column -->
+            <div class="space-y-12">
+                <!-- Stats Grid -->
+                <div class="bg-gray-50 p-8 md:p-12">
+                    <span class="text-[10px] font-mono font-bold tracking-widest text-gray-500 uppercase mb-8 block">Impact metrics</span>
+                    <div class="grid grid-cols-2 gap-8">
+                        {#each stats as stat}
+                            <div>
+                                <div class="text-3xl md:text-4xl font-bold text-primary-600 mb-2">{stat.value}</div>
+                                <div class="text-sm text-gray-600">{stat.label}</div>
+                            </div>
+                        {/each}
+                    </div>
+                </div>
+
+                <!-- Industries -->
+                <div>
+                    <span class="text-[10px] font-mono font-bold tracking-widest text-gray-500 uppercase mb-6 block">Core industries</span>
+                    <div class="space-y-3">
+                        {#each industries as industry}
+                            <div class="flex items-center gap-3 text-gray-900">
+                                <div class="w-1 h-1 bg-primary-600"></div>
+                                <span class="text-lg">{industry}</span>
+                            </div>
+                        {/each}
+                    </div>
+                </div>
+
+                <!-- Engagement Model -->
+                <div class="border-t border-gray-200 pt-8">
+                    <span class="text-[10px] font-mono font-bold tracking-widest text-gray-500 uppercase mb-4 block">Engagement model</span>
+                    <p class="text-gray-600 mb-2">Monthly retainer engagements</p>
+                    <p class="text-2xl font-semibold text-gray-900">$5K–$25K/month</p>
                 </div>
             </div>
-        </div>
-
-        <!-- Center Graphic -->
-        <div class="absolute inset-0 flex items-center justify-center pointer-events-none">
-            <!-- Large Watermark Text -->
-            <h1 class="text-[18vw] font-bold text-[#F0EFEA] tracking-tighter select-none leading-none text-center z-0">
-                RISK
-            </h1>
-            
-            <!-- Circular Gauge SVG -->
-            <div class="absolute inset-0 flex items-center justify-center z-10">
-                <svg viewBox="0 0 200 200" class="w-[90vw] h-[90vw] md:w-[45vw] md:h-[45vw]">
-                    <!-- Ticks -->
-                    {#each Array(180) as _, i}
-                        <line 
-                            x1="100" y1="20" 
-                            x2="100" y2={i % 10 === 0 ? "28" : "24"} 
-                            stroke={i === 0 ? "var(--color-primary-600)" : "#E5E5E5"} 
-                            stroke-width={i === 0 ? "1" : "0.5"}
-                            transform="rotate({i * 2} 100 100)"
-                        />
-                    {/each}
-                    <!-- Top Indicator Line -->
-                     <line x1="100" y1="10" x2="100" y2="35" stroke="var(--color-primary-600)" stroke-width="1" />
-                </svg>
-            </div>
-        </div>
-
-        <!-- Bottom Info -->
-        <div class="w-full relative z-20 mt-auto">
-            <h3 class="text-2xl md:text-3xl font-medium max-w-md mb-8 text-gray-900 leading-tight">
-                Proactive risk management for mid-market enterprises
-            </h3>
-            <a href="/services" class="inline-flex items-center gap-2 text-sm font-medium hover:opacity-70 transition-opacity group text-gray-900">
-                <span class="text-xs group-hover:translate-x-1 transition-transform duration-300">›</span>
-                Explore our services
-            </a>
         </div>
     </div>
 </section>

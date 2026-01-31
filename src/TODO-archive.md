@@ -47,3 +47,17 @@
 - [ ] Populate Optimize Risk Profile
 
 ──────────────────────────────────────────────────
+
+## Session: 2026-01-31T02:52:06.773Z
+
+<!-- DO NOT EDIT - Managed by todo_list tool -->
+<!-- Updated: 2026-01-31T02:51:25.238Z -->
+
+# Current Todo List State
+
+- [ ] Change ProgressCarousel section
+- [ ] Change HavenOne component
+- [ ] Change Hero background picture
+- [ ] Change Hero description text
+
+──────────────────────────────────────────────────

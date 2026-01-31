@@ -1,100 +1,71 @@
 <script lang="ts">
-    let currentSlide = $state(0);
-    
-    const slides = [
+    const services = [
         {
-            image: "https://images.unsplash.com/photo-1581094794329-c8112a89af12?q=80&w=2070&auto=format&fit=crop",
-            title: "Risk Assessment",
-            step: "Step 1",
-            description: "We conduct comprehensive risk assessments to identify vulnerabilities in your operations, from workplace safety to supply chain exposures. Our team analyzes your total cost of risk, not just insurance premiums."
+            number: "01",
+            title: "Risk assessment",
+            description: "Comprehensive analysis of your operational vulnerabilities, from workplace safety to supply chain exposures. We identify the root causes driving your total cost of risk.",
+            metrics: ["Site inspections", "Claims analysis", "Culture assessment"]
         },
         {
-            image: "https://images.unsplash.com/photo-1504917595217-d4dc5ebe6122?q=80&w=2940&auto=format&fit=crop",
-            title: "Loss Control",
-            step: "Step 2",
-            description: "We implement targeted loss control programs and safety culture training that reduce incidents and claims. Our hands-on approach ensures sustainable behavioral change across your organization."
+            number: "02",
+            title: "Loss control programs",
+            description: "Hands-on implementation of targeted safety programs and behavioral training that prevent incidents before they occur. We embed sustainable change across your organization.",
+            metrics: ["Safety training", "Process improvement", "Incident prevention"]
         },
         {
-            image: "https://images.unsplash.com/photo-1581092160562-40aa08e78837?q=80&w=2070&auto=format&fit=crop",
-            title: "Insurance Optimization",
-            step: "Step 3",
-            description: "We optimize your insurance program structure and negotiate with carriers from a position of strength, backed by demonstrated risk improvements. This typically reduces premiums by 15-30%."
+            number: "03",
+            title: "Insurance optimization",
+            description: "Strategic program design and carrier negotiation backed by demonstrated risk improvements. We help you pay for protection, not past mistakes.",
+            metrics: ["Program design", "Carrier negotiation", "Premium reduction"]
         }
     ];
-    
-    function nextSlide() {
-        currentSlide = (currentSlide + 1) % slides.length;
-    }
-    
-    function prevSlide() {
-        currentSlide = (currentSlide - 1 + slides.length) % slides.length;
-    }
 </script>
 
-<section class="bg-white py-24 px-6 md:px-12 overflow-hidden">
+<section class="bg-gray-50 py-24 px-6 md:px-12">
     <div class="max-w-[1400px] mx-auto">
-        <h2 class="text-4xl md:text-5xl lg:text-6xl font-semibold leading-[1.05] tracking-tight mb-16 text-black">
-            Our approach to<br />
-            risk management
-        </h2>
-
-        <!-- Carousel Container -->
-        <div class="relative w-full overflow-hidden">
-            <div class="flex gap-6 transition-transform duration-500 ease-out" style="transform: translateX(calc(-{currentSlide * 100}% - {currentSlide * 24}px))">
-                {#each slides as slide, index}
-                    <div class="relative w-full md:w-[85%] shrink-0 aspect-[16/9] bg-gray-900 group">
-                        <img src={slide.image} alt={slide.title} class="w-full h-full object-cover opacity-80 group-hover:opacity-100 transition-opacity duration-500" />
-                        
-                        <!-- Overlay Card -->
-                        <div class="absolute bottom-0 left-0 p-8 md:p-12 w-full md:w-1/2 bg-gradient-to-t from-black/80 via-black/40 to-transparent md:bg-none">
-                            <div class="flex items-center gap-2 mb-4">
-                                <div class="w-2 h-2 bg-white"></div>
-                                <span class="text-[10px] font-mono font-bold tracking-wider text-white uppercase">{slide.title}</span>
-                            </div>
-                            
-                            <div class="text-[10px] font-mono text-gray-400 mb-4 uppercase tracking-wider">{slide.step}</div>
-                            
-                            <p class="text-white text-lg leading-relaxed mb-8">
-                                {slide.description}
-                            </p>
-                            
-                            <a href="/services" class="flex items-center gap-2 text-sm font-medium text-white hover:opacity-70 transition-opacity group/link">
-                                <span class="text-xs group-hover/link:translate-x-1 transition-transform duration-300">›</span>
-                                Learn more
-                            </a>
-                        </div>
-                    </div>
-                {/each}
-            </div>
+        <div class="mb-16">
+            <span class="text-[10px] font-mono font-bold tracking-widest text-primary-600 uppercase mb-4 block">The Stoic Risk Framework</span>
+            <h2 class="text-4xl md:text-5xl lg:text-6xl font-semibold leading-[1.05] tracking-tight text-black">
+                Prevention over reaction
+            </h2>
         </div>
 
-        <!-- Controls -->
-        <div class="flex flex-col md:flex-row items-end md:items-center justify-between mt-8 pt-8 border-t border-gray-200 gap-6">
-            <div class="text-[10px] font-mono text-gray-500 uppercase tracking-wider max-w-xs leading-relaxed">
-                Our proven methodology reduces total cost of risk by 15-30% within 18 months through prevention-focused strategies.
-            </div>
-
-            <!-- Progress Bar -->
-            <div class="flex-1 w-full flex items-center justify-center px-4 md:px-12">
-                <div class="flex gap-1">
-                    {#each slides as _, index}
-                        <div class={[
-                            'transition-all duration-300',
-                            index === currentSlide ? 'w-8 h-4 bg-primary-600' : 'w-1 h-2 bg-gray-300'
-                        ]}></div>
-                    {/each}
+        <div class="grid md:grid-cols-3 gap-8 md:gap-12">
+            {#each services as service}
+                <div class="group">
+                    <div class="mb-6 flex items-start justify-between">
+                        <span class="text-6xl font-bold text-gray-200 group-hover:text-primary-600 transition-colors duration-300">{service.number}</span>
+                        <div class="w-12 h-[1px] bg-gray-300 mt-8"></div>
+                    </div>
+                    
+                    <h3 class="text-2xl font-semibold mb-4 text-gray-900">{service.title}</h3>
+                    
+                    <p class="text-gray-600 leading-relaxed mb-6">
+                        {service.description}
+                    </p>
+                    
+                    <div class="space-y-2">
+                        {#each service.metrics as metric}
+                            <div class="flex items-center gap-2 text-sm text-gray-500">
+                                <div class="w-1 h-1 bg-primary-600"></div>
+                                <span>{metric}</span>
+                            </div>
+                        {/each}
+                    </div>
                 </div>
-            </div>
+            {/each}
+        </div>
 
-            <!-- Arrows -->
-            <div class="flex gap-2">
-                <button onclick={prevSlide} class="w-10 h-10 bg-[#B0A89E] hover:bg-[#9e968d] transition-colors flex items-center justify-center text-white disabled:opacity-50" disabled={currentSlide === 0}>
-                    <span class="text-xl">‹</span>
-                </button>
-                <button onclick={nextSlide} class="w-10 h-10 bg-[#B0A89E] hover:bg-[#9e968d] transition-colors flex items-center justify-center text-white disabled:opacity-50" disabled={currentSlide === slides.length - 1}>
-                    <span class="text-xl">›</span>
-                </button>
+        <div class="mt-16 pt-12 border-t border-gray-200 flex flex-col md:flex-row items-start md:items-center justify-between gap-8">
+            <div class="max-w-xl">
+                <p class="text-gray-600 leading-relaxed">
+                    Our methodology combines deep operational expertise with insurance market knowledge to deliver sustainable risk reduction. Most clients see measurable improvements within 90 days.
+                </p>
             </div>
+            <a href="/approach" class="inline-flex items-center gap-2 text-sm font-semibold text-gray-900 hover:text-primary-600 transition-colors group/link">
+                <span>View detailed methodology</span>
+                <span class="text-xs group-hover/link:translate-x-1 transition-transform duration-300">›</span>
+            </a>
         </div>
     </div>
 </section>

@@ -61,8 +61,8 @@
                 © {currentYear} Seneca Risk. All rights reserved.
             </div>
             <div class="flex gap-6 text-xs text-gray-500">
-                <a href="#" class="hover:text-white transition-colors">Privacy Policy</a>
-                <a href="#" class="hover:text-white transition-colors">Terms of Service</a>
+                <a href="/privacy" class="hover:text-white transition-colors">Privacy Policy</a>
+                <a href="/terms" class="hover:text-white transition-colors">Terms of Service</a>
             </div>
         </div>
     </div>

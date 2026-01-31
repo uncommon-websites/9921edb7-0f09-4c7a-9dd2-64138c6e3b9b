@@ -40,7 +40,7 @@
 
         <!-- Carousel Container -->
         <div class="relative w-full overflow-hidden">
-            <div class="flex gap-6 transition-transform duration-500 ease-out" style="transform: translateX(-{currentSlide * 100}%)">
+            <div class="flex gap-6 transition-transform duration-500 ease-out" style="transform: translateX(calc(-{currentSlide * 100}% - {currentSlide * 24}px))">
                 {#each slides as slide, index}
                     <div class="relative w-full md:w-[85%] shrink-0 aspect-[16/9] bg-gray-900 group">
                         <img src={slide.image} alt={slide.title} class="w-full h-full object-cover opacity-80 group-hover:opacity-100 transition-opacity duration-500" />

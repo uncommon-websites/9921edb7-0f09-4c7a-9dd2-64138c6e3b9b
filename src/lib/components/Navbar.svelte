@@ -34,8 +34,8 @@
 
     <!-- Right Actions -->
     <div class="flex items-center gap-6">
-        <a href="#" class="text-sm font-medium hover:opacity-70 transition-opacity hidden sm:block">CFO Resources</a>
-        <a href="#" class="bg-white text-black px-5 py-2.5 text-xs font-semibold uppercase tracking-wide hover:bg-gray-200 transition-colors {isScrolled ? '!bg-black !text-white hover:!bg-gray-800' : ''}">
+        <a href="/resources" class="text-sm font-medium hover:opacity-70 transition-opacity hidden sm:block">CFO Resources</a>
+        <a href="/optimize" class="bg-white text-black px-5 py-2.5 text-xs font-semibold uppercase tracking-wide hover:bg-gray-200 transition-colors {isScrolled ? '!bg-black !text-white hover:!bg-gray-800' : ''}">
             Optimize Risk Profile
         </a>
     </div>

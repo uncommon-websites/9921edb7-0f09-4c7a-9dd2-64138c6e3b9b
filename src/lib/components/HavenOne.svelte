@@ -95,11 +95,11 @@
                     </div>
                 </div>
 
-                <!-- Engagement Model -->
+                <!-- Experience -->
                 <div class="border-t border-gray-200 pt-8">
-                    <span class="text-[10px] font-mono font-bold tracking-widest text-gray-500 uppercase mb-4 block">Engagement model</span>
-                    <p class="text-gray-600 mb-2">Monthly retainer engagements</p>
-                    <p class="text-2xl font-semibold text-gray-900">$5K–$25K/month</p>
+                    <span class="text-[10px] font-mono font-bold tracking-widest text-gray-500 uppercase mb-4 block">Experience</span>
+                    <p class="text-gray-600 mb-2">Combined team expertise</p>
+                    <p class="text-2xl font-semibold text-gray-900">30+ years</p>
                 </div>
             </div>
         </div>

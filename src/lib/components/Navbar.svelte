@@ -13,7 +13,7 @@
     });
 </script>
 
-<nav class="fixed top-0 left-0 w-full z-50 px-6 py-5 flex items-center justify-between transition-all duration-300 {isScrolled ? 'bg-white text-black py-4 shadow-sm' : 'bg-transparent text-white'}">
+<nav class="fixed top-0 left-0 w-full z-50 px-6 py-5 flex items-center justify-between transition-all duration-300 {isScrolled ? 'bg-white text-black py-4 shadow-sm' : 'bg-white text-black shadow-sm'}">
     <!-- Logo -->
     <div class="flex items-center">
         <a href="/" class="flex items-center gap-3">
@@ -35,7 +35,7 @@
     <!-- Right Actions -->
     <div class="flex items-center gap-6">
         <a href="/resources" class="text-sm font-medium hover:opacity-70 transition-opacity hidden sm:block">CFO Resources</a>
-        <a href="/optimize" class="bg-white text-black px-5 py-2.5 text-xs font-semibold uppercase tracking-wide hover:bg-gray-200 transition-colors {isScrolled ? '!bg-black !text-white hover:!bg-gray-800' : ''}">
+        <a href="/optimize" class="bg-black text-white px-5 py-2.5 text-xs font-semibold uppercase tracking-wide hover:bg-gray-800 transition-colors">
             Optimize Risk Profile
         </a>
     </div>

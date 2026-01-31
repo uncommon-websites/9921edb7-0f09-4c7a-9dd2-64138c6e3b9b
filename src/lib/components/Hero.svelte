@@ -23,10 +23,10 @@
                 We prevent claims before they happen through proactive risk assessments, loss control programs, and safety culture training for mid-market manufacturers, construction firms, and logistics companies.
             </p>
             <div class="flex flex-col sm:flex-row gap-4">
-                <a href="#" class="inline-block bg-primary-600 text-white px-8 py-4 text-sm font-semibold hover:bg-primary-700 transition-colors">
+                <a href="/contact" class="inline-block bg-primary-600 text-white px-8 py-4 text-sm font-semibold hover:bg-primary-700 transition-colors">
                     Schedule assessment
                 </a>
-                <a href="#" class="inline-flex items-center gap-2 text-sm font-medium hover:opacity-70 transition-opacity group px-8 py-4 border border-white/30 hover:bg-white/5">
+                <a href="/approach" class="inline-flex items-center gap-2 text-sm font-medium hover:opacity-70 transition-opacity group px-8 py-4 border border-white/30 hover:bg-white/5">
                     <span>Learn about our approach</span>
                     <span class="text-xs group-hover:translate-x-1 transition-transform duration-300">›</span>
                 </a>

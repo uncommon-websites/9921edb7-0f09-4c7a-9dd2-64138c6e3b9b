@@ -10,7 +10,7 @@
             Seneca Risk transforms operational vulnerability into strategic resilience through proactive risk mitigation and Stoic-informed frameworks that prevent disruptions before they occur.
         </h2>
 
-        <a href="#" class="inline-block bg-white text-black px-6 py-3 text-xs font-semibold uppercase tracking-wide hover:bg-gray-100 transition-colors">
+        <a href="/approach" class="inline-block bg-white text-black px-6 py-3 text-xs font-semibold uppercase tracking-wide hover:bg-gray-100 transition-colors">
             View our approach
         </a>
     </div>

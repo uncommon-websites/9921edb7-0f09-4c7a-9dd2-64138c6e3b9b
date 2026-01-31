@@ -4,6 +4,7 @@
     import Statement from "$lib/components/Statement.svelte";
     import HavenOne from "$lib/components/HavenOne.svelte";
     import ProgressCarousel from "$lib/components/ProgressCarousel.svelte";
+    import Footer from "$lib/components/Footer.svelte";
 </script>
 
 <main class="w-full min-h-screen bg-white">
@@ -12,5 +13,6 @@
     <Statement />
     <HavenOne />
     <ProgressCarousel />
+    <Footer />
 </main>
 

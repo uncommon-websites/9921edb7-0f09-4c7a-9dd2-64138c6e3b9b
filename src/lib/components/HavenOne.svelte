@@ -8,14 +8,12 @@
             </div>
 
             <div class="text-right hidden md:block">
-                <div class="grid grid-cols-[auto_auto] gap-x-8 gap-y-1 text-[10px] font-mono text-gray-500 uppercase tracking-widest">
-                    <span class="text-gray-400">Cost Reduction:</span> <span class="text-gray-900">15-30%</span>
-                    <span class="text-gray-400">Timeline:</span> <span class="text-gray-900">18 months</span>
-                    <span class="text-gray-400">Market Size:</span> <span class="text-gray-900">$8B+</span>
-                    <span class="text-gray-400">Target Revenue:</span> <span class="text-gray-900">$50M-$500M</span>
-                    <span class="text-gray-400">Industries:</span> <span class="text-gray-900">3 core</span>
-                    <span class="text-gray-400">Retainer Range:</span> <span class="text-gray-900">$5K-$25K/mo</span>
-                    <span class="text-gray-400">Model:</span> <span class="text-gray-900">Land & expand</span>
+                <div class="grid grid-cols-[auto_auto] gap-x-8 gap-y-2 text-[10px] font-mono text-gray-500 uppercase tracking-widest">
+                    <span class="text-gray-400">Avg. cost reduction</span> <span class="text-gray-900 font-bold">15-30%</span>
+                    <span class="text-gray-400">Implementation time</span> <span class="text-gray-900 font-bold">18 months</span>
+                    <span class="text-gray-400">Target company size</span> <span class="text-gray-900 font-bold">$50M-$500M</span>
+                    <span class="text-gray-400">Core industries served</span> <span class="text-gray-900 font-bold">Manufacturing, Construction, Logistics</span>
+                    <span class="text-gray-400">Engagement model</span> <span class="text-gray-900 font-bold">Monthly retainer $5K-$25K</span>
                 </div>
             </div>
         </div>
@@ -51,7 +49,7 @@
             <h3 class="text-2xl md:text-3xl font-medium max-w-md mb-8 text-gray-900 leading-tight">
                 Proactive risk management for mid-market enterprises
             </h3>
-            <a href="#" class="inline-flex items-center gap-2 text-sm font-medium hover:opacity-70 transition-opacity group text-gray-900">
+            <a href="/services" class="inline-flex items-center gap-2 text-sm font-medium hover:opacity-70 transition-opacity group text-gray-900">
                 <span class="text-xs group-hover:translate-x-1 transition-transform duration-300">›</span>
                 Explore our services
             </a>

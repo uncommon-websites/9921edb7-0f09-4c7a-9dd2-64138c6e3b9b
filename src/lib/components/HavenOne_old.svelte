@@ -48,12 +48,12 @@
 
         <!-- Bottom Info -->
         <div class="w-full relative z-20 mt-auto">
-            <h3 class="text-2xl md:text-3xl font-medium max-w-md mb-8 text-gray-900 leading-tight">
-                Proactive risk management for mid-market enterprises
+            <h3 class="text-2xl md:text-3xl font-medium max-w-xs mb-8 text-gray-900 leading-tight">
+                The world’s first commercial space station
             </h3>
             <a href="#" class="inline-flex items-center gap-2 text-sm font-medium hover:opacity-70 transition-opacity group text-gray-900">
                 <span class="text-xs group-hover:translate-x-1 transition-transform duration-300">›</span>
-                Explore our services
+                Learn more
             </a>
         </div>
     </div>

@@ -1,17 +1,11 @@
 <script lang="ts">
-    const bgImage = "/generated/image-professional-risk-management-consultant--1770491304439-0.webp";
+    const bgImage = "/generated/image-new-york-city-skyline-with-modern-skyscr-1770501899082-0.webp";
 </script>
 
 <section class="relative h-screen w-full overflow-hidden bg-gray-900 text-white">
     <!-- Background Image -->
     <div class="absolute inset-0">
-        <img src={bgImage} alt="Risk management consultant working with manufacturing facility manager" class="w-full h-full object-cover opacity-40" />
-        <!-- NYC Buildings Overlay -->
-        <div class="absolute inset-0">
-            <img src="/generated/image-new-york-city-skyline-with-modern-office-1770491872627-0.webp" alt="New York City skyline" class="w-full h-full object-cover opacity-30" />
-        </div>
-        <!-- Dark Overlay for text readability -->
-        <div class="absolute inset-0 bg-gray-900/60"></div>
+        <img src={bgImage} alt="New York City skyline with modern skyscrapers" class="w-full h-full object-cover" />
     </div>
 
     <!-- Content -->

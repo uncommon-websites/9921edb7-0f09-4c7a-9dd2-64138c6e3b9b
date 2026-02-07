@@ -141,3 +141,14 @@
 - [ ] Replace Hero bg gradient with image
 
 ──────────────────────────────────────────────────
+
+## Session: 2026-02-07T22:05:14.440Z
+
+<!-- DO NOT EDIT - Managed by todo_list tool -->
+<!-- Updated: 2026-02-07T22:04:00.506Z -->
+
+# Current Todo List State
+
+- [ ] Replace hero background photo
+
+──────────────────────────────────────────────────

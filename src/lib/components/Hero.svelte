@@ -1,11 +1,11 @@
 <script lang="ts">
-    const bgImage = "/generated/image-new-york-city-skyline-with-tall-skyscrap-1769828290932-0.webp";
+    const bgImage = "/generated/image-professional-risk-management-consultant--1770491304439-0.webp";
 </script>
 
 <section class="relative h-screen w-full overflow-hidden bg-gray-900 text-white">
     <!-- Background Image -->
     <div class="absolute inset-0">
-        <img src={bgImage} alt="New York City skyline" class="w-full h-full object-cover opacity-40" />
+        <img src={bgImage} alt="Risk management consultant working with manufacturing facility manager" class="w-full h-full object-cover opacity-40" />
         <!-- Gradient Overlay -->
         <div class="absolute inset-0 bg-gradient-to-t from-gray-900/90 via-gray-900/50 to-gray-900/70"></div>
     </div>

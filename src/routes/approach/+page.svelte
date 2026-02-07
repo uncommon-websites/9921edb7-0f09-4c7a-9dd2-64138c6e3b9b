@@ -7,9 +7,22 @@
     <Navbar />
     
     <!-- Hero Section -->
-    <div class="pt-32 pb-24 px-6 md:px-12 max-w-[1400px] mx-auto">
-        <h1 class="text-5xl md:text-7xl font-semibold mb-8">The Stoic Risk Framework</h1>
-        <p class="text-xl text-gray-600 max-w-3xl">Our prevention-first approach to risk management.</p>
+    <div class="relative pt-32 pb-24 px-6 md:px-12 overflow-hidden">
+        <!-- Background Image -->
+        <div class="absolute inset-0 z-0">
+            <img 
+                src="/generated/image-industrial-manufacturing-facility-interi-1770491630075-0.webp" 
+                alt="" 
+                class="w-full h-full object-cover opacity-[0.08]"
+            />
+            <div class="absolute inset-0 bg-gradient-to-b from-white/60 via-white/80 to-white"></div>
+        </div>
+        
+        <!-- Content -->
+        <div class="relative z-10 max-w-[1400px] mx-auto">
+            <h1 class="text-5xl md:text-7xl font-semibold mb-8">The Stoic Risk Framework</h1>
+            <p class="text-xl text-gray-600 max-w-3xl">Our prevention-first approach to risk management.</p>
+        </div>
     </div>
 
     <!-- Philosophy Section -->

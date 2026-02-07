@@ -130,3 +130,14 @@
 - [ ] Add background image to section
 
 ──────────────────────────────────────────────────
+
+## Session: 2026-02-07T19:18:07.324Z
+
+<!-- DO NOT EDIT - Managed by todo_list tool -->
+<!-- Updated: 2026-02-07T19:16:37.800Z -->
+
+# Current Todo List State
+
+- [ ] Replace Hero bg gradient with image
+
+──────────────────────────────────────────────────

@@ -152,3 +152,16 @@
 - [ ] Replace hero background photo
 
 ──────────────────────────────────────────────────
+
+## Session: 2026-02-07T22:12:34.360Z
+
+<!-- DO NOT EDIT - Managed by todo_list tool -->
+<!-- Updated: 2026-02-07T22:11:07.311Z -->
+
+# Current Todo List State
+
+- [ ] Change skyscraper image to NYC
+- [ ] Show closer skyscrapers in image
+- [ ] Add image overlay for text
+
+──────────────────────────────────────────────────

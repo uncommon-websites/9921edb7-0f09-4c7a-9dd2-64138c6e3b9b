@@ -1,11 +1,13 @@
 <script lang="ts">
-    const bgImage = "/generated/image-new-york-city-skyline-with-modern-skyscr-1770501899082-0.webp";
+    const bgImage = "/generated/image-close-up-view-of-modern-nyc-skyscrapers--1770502337142-0.webp";
 </script>
 
 <section class="relative h-screen w-full overflow-hidden bg-gray-900 text-white">
     <!-- Background Image -->
     <div class="absolute inset-0">
-        <img src={bgImage} alt="New York City skyline with modern skyscrapers" class="w-full h-full object-cover" />
+        <img src={bgImage} alt="Close-up view of NYC skyscrapers" class="w-full h-full object-cover" />
+        <!-- Overlay for text readability -->
+        <div class="absolute inset-0 bg-gradient-to-r from-gray-900/90 via-gray-900/70 to-gray-900/50"></div>
     </div>
 
     <!-- Content -->

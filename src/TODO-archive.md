@@ -178,3 +178,14 @@
 - [ ] Change text color to white
 
 ──────────────────────────────────────────────────
+
+## Session: 2026-02-07T22:40:01.754Z
+
+<!-- DO NOT EDIT - Managed by todo_list tool -->
+<!-- Updated: 2026-02-07T22:39:10.745Z -->
+
+# Current Todo List State
+
+- [ ] Adapt gradient for hero image
+
+──────────────────────────────────────────────────

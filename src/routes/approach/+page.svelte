@@ -3,23 +3,22 @@
     import Footer from "$lib/components/Footer.svelte";
 </script>
 
-<main class="w-full min-h-screen bg-white relative">
-    <!-- Background Image -->
-    <div class="absolute inset-0 z-0">
-        <img 
-            src="/generated/image-close-up-view-of-modern-nyc-skyscrapers--1770502337142-0.webp" 
-            alt="" 
-            class="w-full h-full object-cover"
-        />
-        <!-- Dark overlay for text readability -->
-        <div class="absolute inset-0 bg-gradient-to-r from-gray-900/90 via-gray-900/80 to-gray-900/70"></div>
-    </div>
-    <div class="relative z-10">
-        <Navbar />
-    </div>
+<main class="w-full min-h-screen bg-white">
+    <Navbar />
     
-    <!-- Hero Section -->
-    <div class="relative z-10 pt-32 pb-24 px-6 md:px-12 overflow-hidden">
+    <!-- Hero Section with Background Image -->
+    <div class="relative pt-32 pb-24 px-6 md:px-12 overflow-hidden">
+        <!-- Background Image with Gradient Overlay -->
+        <div class="absolute inset-0 z-0">
+            <img 
+                src="/generated/image-close-up-view-of-modern-nyc-skyscrapers--1770502337142-0.webp" 
+                alt="" 
+                class="w-full h-full object-cover"
+            />
+            <!-- Dark overlay for text readability -->
+            <div class="absolute inset-0 bg-gradient-to-r from-gray-900/90 via-gray-900/80 to-gray-900/70"></div>
+        </div>
+        
         <!-- Content -->
         <div class="relative z-10 max-w-[1400px] mx-auto">
             <h1 class="text-5xl md:text-7xl font-semibold mb-8 text-white">The Stoic Risk Framework</h1>
@@ -28,22 +27,25 @@
     </div>
 
     <!-- Philosophy Section -->
-    <div class="relative z-10 px-6 md:px-12 max-w-[1400px] mx-auto pb-24">
-        <div class="bg-white/10 backdrop-blur-sm border border-white/20 rounded-2xl p-10 lg:p-16">
-            <div class="max-w-4xl">
-                <h2 class="text-3xl md:text-4xl font-semibold mb-6 text-white">Control what you can. Prepare for what you cannot.</h2>
-                <p class="text-lg text-gray-200 leading-relaxed mb-6">
-                    Named after the ancient Stoic philosopher Seneca, our framework embodies his core teaching: distinguish between what is within your control and what is not. In risk management, this means systematically identifying controllable risks, eliminating them through prevention, and strategically transferring or mitigating what remains.
-                </p>
-                <p class="text-lg text-gray-200 leading-relaxed">
-                    Most organizations overpay for insurance while still suffering preventable losses because they focus on transferring risk instead of controlling it. The Stoic Risk Framework reverses this approach—we reduce your total cost of risk by preventing claims before they happen.
-                </p>
+    <div class="bg-gray-900 px-6 md:px-12 pb-24">
+        <div class="max-w-[1400px] mx-auto">
+            <div class="bg-white/10 backdrop-blur-sm border border-white/20 rounded-2xl p-10 lg:p-16">
+                <div class="max-w-4xl">
+                    <h2 class="text-3xl md:text-4xl font-semibold mb-6 text-white">Control what you can. Prepare for what you cannot.</h2>
+                    <p class="text-lg text-gray-200 leading-relaxed mb-6">
+                        Named after the ancient Stoic philosopher Seneca, our framework embodies his core teaching: distinguish between what is within your control and what is not. In risk management, this means systematically identifying controllable risks, eliminating them through prevention, and strategically transferring or mitigating what remains.
+                    </p>
+                    <p class="text-lg text-gray-200 leading-relaxed">
+                        Most organizations overpay for insurance while still suffering preventable losses because they focus on transferring risk instead of controlling it. The Stoic Risk Framework reverses this approach—we reduce your total cost of risk by preventing claims before they happen.
+                    </p>
+                </div>
             </div>
         </div>
     </div>
 
     <!-- Framework Pillars -->
-    <div class="relative z-10 px-6 md:px-12 max-w-[1400px] mx-auto pb-24">
+    <div class="bg-gray-900 px-6 md:px-12 pb-24">
+        <div class="max-w-[1400px] mx-auto">
         <div class="mb-12">
             <h2 class="text-3xl md:text-5xl font-semibold mb-4 text-white">The four pillars</h2>
             <p class="text-xl text-gray-200 max-w-3xl">Our systematic approach to reducing total cost of risk through prevention, preparation, and optimization.</p>
@@ -224,10 +226,12 @@
             </div>
 
         </div>
+        </div>
     </div>
 
     <!-- Results Section -->
-    <div class="relative z-10 px-6 md:px-12 max-w-[1400px] mx-auto pb-24">
+    <div class="bg-gray-900 px-6 md:px-12 pb-24">
+        <div class="max-w-[1400px] mx-auto">
         <div class="bg-white/10 backdrop-blur-sm border border-white/20 text-white px-10 py-16 md:py-20 rounded-2xl">
             <div class="max-w-4xl">
                 <h2 class="text-3xl md:text-5xl font-semibold mb-8">Proven results</h2>
@@ -250,10 +254,12 @@
                 </p>
             </div>
         </div>
+        </div>
     </div>
 
     <!-- Process Timeline -->
-    <div class="relative z-10 px-6 md:px-12 max-w-[1400px] mx-auto pb-24">
+    <div class="bg-gray-900 px-6 md:px-12 pb-24">
+        <div class="max-w-[1400px] mx-auto">
         <div class="mb-12">
             <h2 class="text-3xl md:text-5xl font-semibold mb-4 text-white">How we work with you</h2>
             <p class="text-xl text-gray-200 max-w-3xl">A systematic engagement process designed for measurable risk reduction.</p>
@@ -356,10 +362,12 @@
                 </div>
             </div>
         </div>
+        </div>
     </div>
 
     <!-- CTA Section -->
-    <div class="relative z-10 px-6 md:px-12 max-w-[1400px] mx-auto pb-32">
+    <div class="bg-gray-900 px-6 md:px-12 pb-32">
+        <div class="max-w-[1400px] mx-auto">
         <div class="bg-white/10 backdrop-blur-sm border border-white/20 px-10 py-16 md:py-20 rounded-2xl">
             <div class="max-w-3xl mx-auto text-center">
                 <h2 class="text-3xl md:text-5xl font-semibold mb-6 text-white">Ready to implement the Stoic Risk Framework?</h2>
@@ -376,9 +384,8 @@
                 </div>
             </div>
         </div>
+        </div>
     </div>
 
-    <div class="relative z-10">
-        <Footer />
-    </div>
+    <Footer />
 </main>

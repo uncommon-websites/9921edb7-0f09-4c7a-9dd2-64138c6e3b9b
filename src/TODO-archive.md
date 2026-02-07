@@ -165,3 +165,16 @@
 - [ ] Add image overlay for text
 
 ──────────────────────────────────────────────────
+
+## Session: 2026-02-07T22:19:52.898Z
+
+<!-- DO NOT EDIT - Managed by todo_list tool -->
+<!-- Updated: 2026-02-07T22:19:39.564Z -->
+
+# Current Todo List State
+
+- [ ] Add background image to main
+- [ ] Add overlay to background image
+- [ ] Change text color to white
+
+──────────────────────────────────────────────────

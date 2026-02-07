@@ -1,8 +1,8 @@
 <!-- DO NOT EDIT - Managed by todo_list tool -->
-<!-- Updated: 2026-02-07T22:12:49.852Z -->
+<!-- Updated: 2026-02-07T22:23:16.692Z -->
 
 # Current Todo List State
 
-- [x] Change skyscraper image to NYC
-- [x] Show closer skyscrapers in image
-- [x] Add image overlay for text
+- [x] Add background image to main
+- [x] Add overlay to background image
+- [x] Change text color to white

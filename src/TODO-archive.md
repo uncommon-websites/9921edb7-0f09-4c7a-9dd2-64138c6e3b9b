@@ -203,3 +203,14 @@
 - [ ] Add hero image with size
 
 ──────────────────────────────────────────────────
+
+## Session: 2026-02-09T16:14:05.019Z
+
+<!-- DO NOT EDIT - Managed by todo_list tool -->
+<!-- Updated: 2026-02-09T16:09:39.093Z -->
+
+# Current Todo List State
+
+- [ ] Refactor Stoic Risk Framework page
+
+──────────────────────────────────────────────────

@@ -214,3 +214,15 @@
 - [ ] Refactor Stoic Risk Framework page
 
 ──────────────────────────────────────────────────
+
+## Session: 2026-02-09T17:05:43.989Z
+
+<!-- DO NOT EDIT - Managed by todo_list tool -->
+<!-- Updated: 2026-02-09T17:04:48.369Z -->
+
+# Current Todo List State
+
+- [ ] Add copy to About Us section
+- [ ] Add design to About Us section
+
+──────────────────────────────────────────────────

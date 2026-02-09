@@ -7,22 +7,20 @@
     <Navbar />
     
     <!-- Hero Section with Background Image -->
-    <div class="relative pt-32 pb-24 px-6 md:px-12 overflow-hidden">
+    <div class="relative min-h-[80vh] flex items-center px-6 md:px-12 overflow-hidden bg-white">
         <!-- Background Image with Gradient Overlay -->
         <div class="absolute inset-0 z-0">
             <img 
                 src="/generated/image-close-up-view-of-modern-nyc-skyscrapers--1770502337142-0.webp" 
-                alt="" 
-                class="w-full h-full object-cover"
+                alt="Modern architecture representing structured risk management" 
+                class="w-full h-full object-cover opacity-20"
             />
-            <!-- Dark overlay for text readability -->
-            <div class="absolute inset-0 bg-gradient-to-r from-gray-900/90 via-gray-900/80 to-gray-900/70"></div>
         </div>
         
         <!-- Content -->
-        <div class="relative z-10 max-w-[1400px] mx-auto">
-            <h1 class="text-5xl md:text-7xl font-semibold mb-8 text-white">The Stoic Risk Framework</h1>
-            <p class="text-xl text-gray-200 max-w-3xl">Our prevention-first approach to risk management.</p>
+        <div class="relative z-10 max-w-[1400px] mx-auto w-full py-20">
+            <h1 class="text-5xl md:text-7xl lg:text-8xl font-semibold mb-8 text-gray-900 leading-[0.95]">The Stoic Risk Framework</h1>
+            <p class="text-xl md:text-2xl text-gray-700 max-w-3xl leading-relaxed">Our prevention-first approach to risk management.</p>
         </div>
     </div>
 

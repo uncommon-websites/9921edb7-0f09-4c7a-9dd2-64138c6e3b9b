@@ -189,3 +189,17 @@
 - [ ] Adapt gradient for hero image
 
 ──────────────────────────────────────────────────
+
+## Session: 2026-02-09T16:06:26.010Z
+
+<!-- DO NOT EDIT - Managed by todo_list tool -->
+<!-- Updated: 2026-02-09T16:06:12.104Z -->
+
+# Current Todo List State
+
+- [ ] Enlarge the hero image
+- [ ] Make section background white
+- [ ] Refactor the complete section
+- [ ] Add hero image with size
+
+──────────────────────────────────────────────────

@@ -10,19 +10,34 @@
                     title: "Total Cost of Risk: The CFO's Complete Guide",
                     description: "Learn how to calculate and reduce your organization's total cost of risk beyond insurance premiums.",
                     type: "PDF Guide",
-                    downloadUrl: "#"
+                    downloadUrl: "#",
+                    sections: [
+                        { label: "What's included", content: "42-page comprehensive guide with formulas, case examples, and implementation roadmap" },
+                        { label: "Key topics", content: "Direct costs, indirect costs, risk financing, prevention strategies, and ROI measurement" },
+                        { label: "Best for", content: "CFOs and finance leaders evaluating risk management investments" }
+                    ]
                 },
                 {
                     title: "Manufacturing Risk Assessment Checklist",
                     description: "A comprehensive 50-point checklist for identifying operational vulnerabilities in manufacturing facilities.",
                     type: "Checklist",
-                    downloadUrl: "#"
+                    downloadUrl: "#",
+                    sections: [
+                        { label: "What's included", content: "50-point assessment covering equipment, processes, training, and compliance" },
+                        { label: "Key areas", content: "Machine safety, material handling, fire protection, emergency response, and documentation" },
+                        { label: "Best for", content: "Operations managers and risk professionals conducting facility assessments" }
+                    ]
                 },
                 {
                     title: "Construction Safety Culture Framework",
                     description: "Build a proactive safety culture that reduces incidents and workers' compensation claims.",
                     type: "Framework",
-                    downloadUrl: "#"
+                    downloadUrl: "#",
+                    sections: [
+                        { label: "What's included", content: "Step-by-step framework with leadership tools, training modules, and measurement metrics" },
+                        { label: "Key components", content: "Leadership commitment, worker engagement, hazard recognition, incident investigation, and continuous improvement" },
+                        { label: "Best for", content: "Construction executives and safety directors transforming organizational culture" }
+                    ]
                 }
             ]
         },
@@ -33,13 +48,23 @@
                     title: "Loss Control ROI Calculator",
                     description: "Calculate the potential return on investment from implementing comprehensive loss control programs.",
                     type: "Interactive Tool",
-                    downloadUrl: "#"
+                    downloadUrl: "#",
+                    sections: [
+                        { label: "What's included", content: "Interactive web-based calculator with customizable inputs and detailed ROI projections" },
+                        { label: "Key metrics", content: "Claims reduction, premium savings, operational efficiency gains, and payback period analysis" },
+                        { label: "Best for", content: "Risk managers and executives building business cases for loss control investments" }
+                    ]
                 },
                 {
                     title: "Insurance Optimization Analyzer",
                     description: "Identify opportunities to optimize your insurance program structure and reduce total premiums.",
                     type: "Calculator",
-                    downloadUrl: "#"
+                    downloadUrl: "#",
+                    sections: [
+                        { label: "What's included", content: "Excel-based analyzer with coverage comparison, deductible optimization, and premium forecasting" },
+                        { label: "Key features", content: "Multi-year cost modeling, retention analysis, carrier comparison, and savings scenarios" },
+                        { label: "Best for", content: "CFOs and risk managers evaluating insurance program restructuring" }
+                    ]
                 }
             ]
         },
@@ -129,6 +154,21 @@
                                 <p class="text-gray-600 text-sm leading-relaxed mb-6">
                                     {resource.description}
                                 </p>
+                                
+                                {#if resource.sections}
+                                    <div class="space-y-4 mb-6 pb-6 border-b border-gray-100">
+                                        {#each resource.sections as section}
+                                            <div>
+                                                <div class="text-[10px] font-mono font-bold tracking-wider text-gray-900 uppercase mb-1">
+                                                    {section.label}
+                                                </div>
+                                                <p class="text-xs text-gray-600 leading-relaxed">
+                                                    {section.content}
+                                                </p>
+                                            </div>
+                                        {/each}
+                                    </div>
+                                {/if}
                                 
                                 <a href={resource.downloadUrl} class="inline-flex items-center gap-2 text-sm font-medium text-primary-600 hover:text-primary-700 transition-colors group/link">
                                     <span>Download resource</span>
